@@ -171,7 +171,7 @@ str_label = {'t2m':' T 2m (degree C)', \
 # correspond variables in fcst to obs
 obs_var = {'t2m':'t', 'rh2':'rh', 'td2m':'td','mslp':'mslp','ws10':'ff','wd10':'dd','rain03':'rr3'}
 
-dirout = 'output1/'
+dirout = 'output/'
 # create output directory if not exist
 if not os.path.exists(dirout):
     os.makedirs(dirout)
